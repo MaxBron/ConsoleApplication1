@@ -1,4 +1,4 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+﻿
 #include "DailyTask.h"
 
 void DailyTask::setDt()
