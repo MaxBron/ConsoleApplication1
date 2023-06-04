@@ -1,5 +1,7 @@
-﻿
+﻿#define _CRT_SECURE_NO_WARNINGS
 #include "DailyTask.h"
+#include <ctime>
+#include <windows.h>
 
 void DailyTask::setDt()
 {
