@@ -128,6 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="DailyTask.cpp" />
+    <ClCompile Include="OneTimeTask.cpp" />
+    <ClCompile Include="Task.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DailyTask.h" />
+    <ClInclude Include="OneTimeTask.h" />
+    <ClInclude Include="Task.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
