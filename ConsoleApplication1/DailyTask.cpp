@@ -14,3 +14,8 @@ string DailyTask::getDt()
 {
     return dt;
 }
+
+void DailyTask::perform()
+{
+    setStatus(true);
+}

@@ -129,11 +129,13 @@
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="DailyTask.cpp" />
+    <ClCompile Include="ITask.cpp" />
     <ClCompile Include="OneTimeTask.cpp" />
     <ClCompile Include="Task.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DailyTask.h" />
+    <ClInclude Include="ITask.h" />
     <ClInclude Include="OneTimeTask.h" />
     <ClInclude Include="Task.h" />
   </ItemGroup>
