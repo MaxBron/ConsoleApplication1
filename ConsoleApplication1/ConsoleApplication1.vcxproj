@@ -129,15 +129,21 @@
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="DailyTask.cpp" />
+    <ClCompile Include="DailyTaskManager.cpp" />
     <ClCompile Include="ITask.cpp" />
     <ClCompile Include="OneTimeTask.cpp" />
+    <ClCompile Include="OneTimeTaskManager.cpp" />
     <ClCompile Include="Task.cpp" />
+    <ClCompile Include="TaskManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DailyTask.h" />
+    <ClInclude Include="DailyTaskManager.h" />
     <ClInclude Include="ITask.h" />
     <ClInclude Include="OneTimeTask.h" />
+    <ClInclude Include="OneTimeTaskManager.h" />
     <ClInclude Include="Task.h" />
+    <ClInclude Include="TaskManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
