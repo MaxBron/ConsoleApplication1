@@ -1,8 +1,8 @@
 #include "Task.h"
 
-void Task::setName(string name)
+void Task::setName()
 {
-	this->name = name;
+	cin >> name;
 }
 
 string Task::getName()
@@ -10,9 +10,9 @@ string Task::getName()
 	return name;
 }
 
-void Task::setDescription(string description)
+void Task::setDescription()
 {
-	this->description = description;
+	cin >> description;
 }
 
 string Task::getDescription()

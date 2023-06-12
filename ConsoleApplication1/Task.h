@@ -1,13 +1,14 @@
 #pragma once
 #include <string>
+#include <iostream>
 using namespace std;
 
 class Task
 {
 public:
-	void setName(string name);
+	void setName();
 	string getName();
-	void setDescription(string description);
+	void setDescription();
 	string getDescription();
 	void setStatus(bool status);
 	bool getStatus();
